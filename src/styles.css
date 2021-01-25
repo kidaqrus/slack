@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 16px;
+}
+.bod {
+  display: flex;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+
+  background: rgb(226, 109, 0);
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  color: black;
+}
+.navbar__header {
+  padding: 10px 17px;
+  margin-left: auto;
+}
+.data {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(245, 244, 243);
+}
+
+.para {
+  color: red;
+}
+.navbar2 {
+  display: flex;
+  align-items: center;
+}
